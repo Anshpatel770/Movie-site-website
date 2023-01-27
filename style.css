@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&display=swap');
+*{
+     padding: 0;
+     margin: 0ch;
+}
+body{
+     background-color: black;
+}
+ 
+.heading{
+     margin: 23px;
+     background-color: #913841;
+     font-size: 57px;
+     font-family: 'Montserrat', sans-serif;
+     box-shadow: 4px 4px 4px rgb(2 3 21);
+}
+.navbar{
+     background-color:#0c0e0c;
+     box-shadow: rgb(24 35 35);
+     height: 100px;
+}
+.navbar img{
+     
+}
+.navbar ul{
+     display: flex;
+     margin: 18px 235px;
+     font-family: 'Roboto', sans-serif;
+     
+}
+.navbar ul li{
+     list-style: none;
+}
+.navbar ul li a{
+     text-decoration: none;
+     padding: 10px 30px;
+    font-size: 20px;
+    
+    color: brown;
+    box-shadow: rgb(24 35 35);
+}
+.navbar ul li a:hover{
+     color: chartreuse;
+     
+}
+.navbar input{
+     text-align: center;
+     padding:  2px 83px;
+     border-radius: 10px;
+}
+.serach{
+     display: flex;
+     justify-content: flex-end;
+     margin: -40px 1px;
+     padding: 3px 2px;
+     
+}
+.serach i{
+     
+    position: absolute;
+    left: 98%;
+    top: 17%;
+    margin: -1px -2px;
+}
+.catgory{
+     position: absolute;
+    top: 25%;
+    left: 29%;
+}
+.cat{
+     top: -9%;
+    left: 113%;
+    padding: 6px 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 21px;
+    cursor: pointer;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: coral;
+    box-shadow: 7px 7px 7px rgb(40 46 24);
+}
+.hero{
+     position: absolute;
+     top: 32%;
+     left: 5%;
+     
+}
+.hero ul {
+     display: flex;
+     list-style: none;
+
+}
+.hero ul li{
+     text-decoration: none;
+}
+.hero ul li a{
+     text-decoration: none;
+     margin: 1px 6px;
+     border: 2px solid blue;
+     border-radius: 6px;
+     padding: 7px 16px;
+     color: black;
+     background-color: chocolate;
+     box-shadow: 7px 7px 7px rgb(40 46 24);
+}
+.card-item{
+     /* position: absolute;
+    top: 41%; */
+}
+.card-item p{
+     width: 185px;
+     margin: -2px 25px;
+     font-family: 'Merriweather', serif;
+     cursor: pointer;
+     color: white;
+     
+}
+.card-item p:hover{
+     color: red;
+}
+.card-item img{
+     margin: 3px 11px;
+     box-shadow: 3px 3px 3px rgb(24 35 35) ;
+     cursor: pointer;
+     transition: 0.2s ease-in-out;
+     height: 300px;
+}
+.card-item img:hover{
+     color: brown;
+     transform: scale(1.04);
+     transition: 0.2s ease-in-out;
+
+}
+.cards{
+     display: flex;
+     margin-top: 180px;
+
+}
+.card{
+     display: flex;
+}
+.cards-item p{
+     width: 185px;
+     margin: -2px 25px;
+     font-family: 'Merriweather', serif;
+     cursor: pointer;
+     color: white;
+}
+.cards-item p:hover{
+     color: red;
+}
+.cards-item img{
+     margin: 17px 11px;
+     box-shadow: 3px 3px 3px rgb(24 35 35) ;
+     cursor: pointer;
+     height: 300px;
+     transition: 0.2s ease-in-out;
+}
+.cards-item img:hover{
+     transform: scale(1.04);
+     transition: 0.2s ease-in-out;
+}
+.carde{
+     display: flex;
+}
+.cardes-item img{
+     margin: 17px 11px;
+     box-shadow: 3px 3px 3px rgb(24 35 35) ;
+     cursor: pointer;
+     height: 300px; 
+     transition: 0.2s ease-in-out;     
+}
+.cardes-item img:hover{
+     transform: scale(1.04);
+     transition: 0.2s ease-in-out;
+}
+.cardes-item p{
+     color: white;
+     width: 185px;
+     margin: -2px 25px;
+     font-family: 'Merriweather', serif;
+     cursor: pointer;
+}
+.cardes-item p:hover{
+     color: red;
+}
+.next{
+     position: absolute;
+     top: 232%;
+     left: 43%;
+}
+.next ul li a{
+     text-decoration: none;
+     color: white;
+     padding: 8px 12px;
+     border: 2px solid greenyellow;
+     font-size: 17px;
+     border-radius: 10px;
+}
+.next ul li a:hover{
+     color: #913841;
+}
+.next ul li{
+     padding: 1px 4px;
+}   
+
+.next ul{
+     display: flex;
+}
+footer{
+     color: white;
+     background-color: #353542;
+     position: absolute;
+     top: 250%;
+     left: 42%;
+}
+
+@media only screen and (max-width:1000px){
+     .hero ul{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+     }
+    
+}
+@media only screen and (max-width:960px){
+     .catgory{
+          display: flex;
+          flex-direction: row;
+         
+     }
+}
